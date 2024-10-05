@@ -21,5 +21,5 @@ test('Verify that a new user can successfully register on the site.', async ({ p
     await expect(page).toHaveURL('https://www.redmine.org/login');
 
     await page.screenshot({ path: 'screenshots/tc001.png' });
-    
+
 });
