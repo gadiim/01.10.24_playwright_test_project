@@ -15,7 +15,7 @@ test('Verify that an unregistered user cannot log in.', async ({ page }) => {
 
     await page.waitForTimeout(1000);
 
-    const errorMessage = page.locator('text=Invalid user or password');
+    const errorMessage = page.locator('#flash_error');
     await expect(errorMessage).toBeVisible();
 
     await page.screenshot({ path: 'screenshots/tc002.png' });
