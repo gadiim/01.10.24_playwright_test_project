@@ -44,7 +44,7 @@ To set up the project, follow these steps:
    ```
 4. **Run Playwright Install**: Playwright requires some browser binaries. Install them by running:
    ```bash
-   npx playwright install
+   npm run playwright:install
    ```
 
 ## Running Tests
@@ -52,7 +52,7 @@ To set up the project, follow these steps:
 You can now run the tests with the following command:
 - To open the Playwright Test Runner:
    ```bash
-   npx playwright test
+   npm run test
    ```
 - To run tests for specific test files:
   ```bash
@@ -61,6 +61,14 @@ You can now run the tests with the following command:
    npm run test:visibility
    npm run test:сlicks
    npm run test:shop
+   ```
+- To run tests for specific test files in Headed Mode:
+  ```bash
+   npm run test:registration -- --headed
+   npm run test:login -- --headed
+   npm run test:visibility -- --headed
+   npm run test:сlicks -- --headed
+   npm run test:shop -- --headed
    ```
   
 **Generate Allure Reports**
@@ -73,7 +81,7 @@ To generate Allure reports after running the tests, use the following commands:
 
 2. Open the Allure report in your default web browser:
    ```bash
-   npx allure open
+   npm run allure:open
    ```
    
 ## Test Structure
