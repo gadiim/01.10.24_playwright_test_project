@@ -9,11 +9,11 @@ test('Add book to cart and verify', async ({ page }) => {
     const redmineBooks = page.locator('h2:has-text("Redmine books")');
 
     await homePage.navigate();
- z
+
     await redmineBooks.scrollIntoViewIfNeeded();
 
     await productPage.clickBook();
-ї
+
     await productPage.addToCart();
 
     await productPage.verifyItemAddedToCart();
