@@ -31,7 +31,9 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installation
 
-1. Clone the repository:
+To set up the project, follow these steps:
+
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/gadiim/23.09.24_cypress_project.git
    ```
