@@ -35,41 +35,40 @@ To set up the project, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/gadiim/23.09.24_cypress_project.git
+   git clone https://github.com/gadiim/01.10.24_playwright_test_project.git
+   cd 01.10.24_playwright_test_project
    ```
-2. Navigate into the project directory:
-   ```bash
-   cd 23.09.24_cypress_project
-   ```
-3. Install the required dependencies:
+2. **Install Dependencies**: Run the following command to install the required Node.js packages:
    ```bash
    npm install
+   ```
+3. **Verify Java Installation**: Ensure that Java is correctly installed by running:
+   ```bash
+   java -version
+   ```
+4. **Run Playwright Install**: Playwright requires some browser binaries. Install them by running:
+   ```bash
+   npx playwright install
    ```
 
 ## Running Tests
 
-You can run tests in various ways:
+You can now run the tests with the following command:
+   ```bash
+   npx playwright test
+   ```
+**Generate Allure Reports** 
+To generate Allure reports after running the tests, use the following commands:
+1. Generate the Allure report:
+   ```bash
+   npx allure generate allure-results --clean
+   ```
 
-- To open the Cypress Test Runner:
+2. Open the Allure report in your default web browser:
    ```bash
-   npm run cypress:open
+   npx allure open
    ```
-- To run all tests in headless mode:  
-   ```bash
-   npm run cypress:run
-   ```
-- To run tests in specific browsers:
-   ```bash
-   npm run cypress:run:chrome
-   npm run cypress:run:firefox
-   ```
-- To run tests for specific test files:
-  ```bash
-   npm run test:footer
-   npm run test:header
-   npm run test:shop
-   npm run test:header-nfs
-   ```
+   
 ## Test Structure
 
 The tests are organized in the following structure:
