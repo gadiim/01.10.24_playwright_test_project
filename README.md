@@ -60,6 +60,7 @@ You can now run the tests with the following command:
    npm run test:login
    npm run test:visibility
    npm run test:сlicks
+   npm run test:shop
    ```
   
 **Generate Allure Reports**
@@ -83,13 +84,15 @@ The tests are organized in the following structure:
 ├── pages/
 │   ├── registrationPage.js     -- Methods for the registration page
 │   ├── loginPage.js            -- Methods for the login page
+│   ├── productPage.js          -- Methods for the product page
 │   └── homePage.js             -- Methods for the home page
 ├── screenshots/                -- Directory for test screenshots
 ├── tests/
 │   ├── tc_001.spec.js          -- Tests user registration functionality
 │   ├── tc_002.spec.js          -- Tests login attempts by unregistered users
 │   ├── tc_003.spec.js          -- Verifies visibility of various blocks on the home page
-│   └── tc_004.spec.js          -- Clicks on all items in the main menu
+│   ├── tc_004.spec.js          -- Clicks on all items in the main menu
+│   └── tc_005.spec.js          -- Add book to cart and verify
 └── utils/
     └── dataGenerator.js        -- Utility for generating random user data
    ```
