@@ -2,8 +2,9 @@ name: CI
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
   build:
@@ -22,25 +23,7 @@ jobs:
       run: npm install
 
     - name: Install Playwright browsers
-      run: npx playwright install  # Додайте цей рядок
+      run: npx playwright install
 
     - name: Run tests
       run: npm test
-
-    - name: Run all tests
-      run: npm test
-
-    - name: Run registration tests
-      run: npm run test:registration
-
-    - name: Run login tests
-      run: npm run test:login
-
-    - name: Run visibility tests
-      run: npm run test:visibility
-
-    - name: Run clicks tests
-      run: npm run test:clicks
-
-    - name: Run shop tests
-      run: npm run test:shop
