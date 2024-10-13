@@ -6,14 +6,10 @@ This project is a test automation suite built using [Playwright](https://playwri
 
 ## Table of Contents
 - [Overview](#overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Requirements](#requirements)
+- [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Project Structure](#project-structure)
 - [Running Tests](#running-tests)
-- [Reporting](#reporting)
-- [Test Scenarios](#test-scenarios)
+- [Test Structure](#test-structure)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -102,20 +98,6 @@ The Playwright test configuration is defined in the `playwright.config.js` file.
 
 For more details, refer to the `playwright.config.js` file in the project.
 
-
-### Configuration:
-```javascript
-module.exports = defineConfig({
-  e2e: {
-    specPattern: 'cypress/e2e/**/*.js',
-    viewportWidth: 1920,
-    viewportHeight: 1080,
-    video: false,
-    retries: 1,
-    screenshotOnRunFailure: true,
-  },
-});
-```
 ### Contributing:
 
 Please follow these steps to contribute:
