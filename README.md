@@ -57,7 +57,8 @@ You can now run the tests with the following command:
    ```bash
    npx playwright test
    ```
-**Generate Allure Reports** 
+**Generate Allure Reports**
+
 To generate Allure reports after running the tests, use the following commands:
 1. Generate the Allure report:
    ```bash
