@@ -50,15 +50,24 @@ To set up the project, follow these steps:
 ## Running Tests
 
 You can now run the tests with the following command:
+- To open the Playwright Test Runner:
    ```bash
    npx playwright test
    ```
+- To run tests for specific test files:
+  ```bash
+   npm run test:registration
+   npm run test:login
+   npm run test:visibility
+   npm run test:сlicks
+   ```
+  
 **Generate Allure Reports**
 
 To generate Allure reports after running the tests, use the following commands:
 1. Generate the Allure report:
    ```bash
-   npx allure generate allure-results --clean
+   npm run test:report
    ```
 
 2. Open the Allure report in your default web browser:
