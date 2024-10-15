@@ -1,7 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","8083","Verify that an unregistered user cannot log in.","chromium","Sun Oct 13 19:50:23 EEST 2024","passed","Sun Oct 13 19:50:31 EEST 2024","","tc_002.spec.js","",""
-"","18080","Click all elements in main-menu","chromium","Sun Oct 13 19:50:23 EEST 2024","passed","Sun Oct 13 19:50:41 EEST 2024","","tc_004.spec.js","",""
-"","7680","Add book to cart and verify","chromium","Sun Oct 13 21:19:28 EEST 2024","passed","Sun Oct 13 21:19:36 EEST 2024","","tc_005.spec.js","",""
-"","7698","Verify that a new user can successfully register on the site.","chromium","Sun Oct 13 19:50:23 EEST 2024","passed","Sun Oct 13 19:50:31 EEST 2024","","tc_001.spec.js","",""
-"","9122","Click all li elements in #main-menu > ul","chromium","Sun Oct 06 21:37:34 EEST 2024","passed","Sun Oct 06 21:37:43 EEST 2024","","tc_004.spec.js","",""
-"","4980","Checking the visibility of site blocks.","chromium","Sun Oct 13 19:50:23 EEST 2024","passed","Sun Oct 13 19:50:28 EEST 2024","","tc_003.spec.js","",""
