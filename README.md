@@ -1,3 +1,5 @@
+![CI](https://github.com/ваш_репозиторій/ваш_проєкт/actions/workflows/ci.yml/badge.svg)
+
 # Playwright Test Project
 
 ## Overview
@@ -57,17 +59,33 @@ You can now run the tests with the following command:
 - To run tests for specific test files:
   ```bash
    npm run test:registration
+  ```
+  ```bash
    npm run test:login
+  ```
+  ```bash
    npm run test:visibility
+  ```
+  ```bash
    npm run test:сlicks
+  ```
+  ```bash
    npm run test:shop
-   ```
+  ```
 - To run tests for specific test files in Headed Mode:
   ```bash
    npm run test:registration -- --headed
+  ```
+  ```bash
    npm run test:login -- --headed
+  ```
+  ```bash
    npm run test:visibility -- --headed
+  ```
+  ```bash
    npm run test:сlicks -- --headed
+  ```
+  ```bash
    npm run test:shop -- --headed
    ```
   
@@ -157,3 +175,6 @@ Please follow these steps to contribute:
  ## License
 
  No license yet.
+
+
+
