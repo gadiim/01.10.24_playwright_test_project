@@ -1,3 +1,5 @@
+![CI](https://github.com/ваш_репозиторій/ваш_проєкт/actions/workflows/ci.yml/badge.svg)
+
 # Playwright Test Project
 
 ## Overview
@@ -174,5 +176,5 @@ Please follow these steps to contribute:
 
  No license yet.
 
-![CI](https://github.com/ваш_репозиторій/ваш_проєкт/actions/workflows/ci.yml/badge.svg)
+
 
