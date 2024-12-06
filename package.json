@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "playwright test",
-    "test:registration": "playwright test tests/tc_001.spec.js",
-    "test:login": "playwright test tests/tc_002.spec.js",
-    "test:visibility": "playwright test tests/tc_003.spec.js",
-    "test:clicks": "playwright test tests/tc_004.spec.js",
-    "test:shop": "playwright test tests/tc_005.spec.js",
-    "test:report": "allure generate allure-results --clean -o allure-report && allure open allure-report"
+    "test:registration": "playwright test ./tests/tc_001.spec.js",
+    "test:login": "playwright test ./tests/tc_002.spec.js",
+    "test:visibility": "playwright test ./tests/tc_003.spec.js",
+    "test:clicks": "playwright test ./tests/tc_004.spec.js",
+    "test:shop": "playwright test ./tests/tc_005.spec.js",
+    "test:report": "allure generate ./allure-results --clean -o ./allure-report && allure open ./allure-report",
+    "allure:generate": "allure generate ./allure-results --clean", 
+    "allure:open": "allure open ./allure-report"
   },
   "keywords": [
     "playwright",
@@ -24,6 +26,7 @@
   "devDependencies": {
     "@playwright/test": "^1.47.2",
     "@types/node": "^22.7.4",
+    "allure-commandline": "^2.17.2",
     "allure-playwright": "^3.0.4"
   },
   "dependencies": {
@@ -32,9 +35,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/gadiim/01.10.24_playwright_test_project.git" 
-  },
-  "homepage": "https://github.com/gadiim/01.10.24_playwright_test_project#readme",
-  "bugs": {
-    "url": "https://github.com/gadiim/01.10.24_playwright_test_project/issues"
   }
 }

@@ -23,7 +23,7 @@ module.exports = defineConfig({
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
-    ['html', { open: 'always' }],
+    // ['html', { open: 'always' }],
     ['list'],
     ['allure-playwright']
   ],
