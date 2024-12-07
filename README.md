@@ -107,7 +107,11 @@ To generate Allure reports after running the tests, use the following commands:
    npm run allure:open
    ```
 
-   
+**Test in interactive mode** , which allows you to better understand where exactly the problem occurs:
+   ```bash
+   npx playwright test --debug
+   ```
+
 ## Test Result
 
 The project utilizes GitHub Pages for hosting and displaying the test reports. You can view the test reports [here](https://gadiim.github.io/01.10.24_playwright_test_project/)
