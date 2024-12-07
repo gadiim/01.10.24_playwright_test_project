@@ -11,6 +11,7 @@ This project is a test automation suite built using [Playwright](https://playwri
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Running Tests](#running-tests)
+- [Test Result](#test-result)
 - [Test Structure](#test-structure)
 - [Contributing](#contributing)
 - [License](#license)
@@ -101,7 +102,12 @@ To generate Allure reports after running the tests, use the following commands:
    ```bash
    npm run allure:open
    ```
+
    
+## Test Result
+
+The project utilizes GitHub Pages for hosting and displaying the test reports. You can view the test reports [here](https://gadiim.github.io/01.10.24_playwright_test_project/)
+
 ## Test Structure
 
 The tests are organized in the following structure:
@@ -175,6 +181,7 @@ Please follow these steps to contribute:
  ## License
 
  No license yet.
+
 
 
 
