@@ -2,12 +2,9 @@
 
 # Playwright Test Project
 
-## Overview
-
-This project is a test automation suite built using [Playwright](https://playwright.dev/), aimed at ensuring the functionality and reliability of web applications. It includes a series of automated tests that cover essential user interactions and verify the expected behavior of the application.
-
 ## Table of Contents
 - [Overview](#overview)
+- [Test-case](#test-case)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Running Tests](#running-tests)
@@ -15,6 +12,13 @@ This project is a test automation suite built using [Playwright](https://playwri
 - [Test Structure](#test-structure)
 - [License](#license)
 
+## Overview
+
+This project is a test automation suite built using [Playwright](https://playwright.dev/), aimed at ensuring the functionality and reliability of [web-site](https://www.redmine.org). It includes a series of automated tests that cover essential user interactions and verify the expected behavior of the application.
+
+## Test-case
+
+You can find the test-case details [here](https://github.com/gadiim/01.10.24_playwright_test_project/blob/main/TEST-CASE.md).
 
 ## Prerequisites
 
