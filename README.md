@@ -1,4 +1,4 @@
-![CI](https://github.com/ваш_репозиторій/ваш_проєкт/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/gadiim/01.10.24_playwright_test_project/actions/workflows/ci.yml/badge.svg)
 
 # Playwright Test Project
 
@@ -11,8 +11,8 @@ This project is a test automation suite built using [Playwright](https://playwri
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Running Tests](#running-tests)
+- [Test Result](#test-result)
 - [Test Structure](#test-structure)
-- [Contributing](#contributing)
 - [License](#license)
 
 
@@ -26,6 +26,7 @@ Before you begin, ensure you have met the following requirements:
 - **Allure**: Ensure you have installed Allure globally using the command:
   ```bash
   npm install -g allure-commandline
+  ```
 
 ## Installation
 
@@ -101,7 +102,12 @@ To generate Allure reports after running the tests, use the following commands:
    ```bash
    npm run allure:open
    ```
+
    
+## Test Result
+
+The project utilizes GitHub Pages for hosting and displaying the test reports. You can view the test reports [here](https://gadiim.github.io/01.10.24_playwright_test_project/)
+
 ## Test Structure
 
 The tests are organized in the following structure:
@@ -122,59 +128,18 @@ The tests are organized in the following structure:
 └── utils/
     └── dataGenerator.js        -- Utility for generating random user data
    ```
-Each test file contains specific test cases that validate various functionalities of the website.
-
-## Configuration
-
-The Playwright test configuration is defined in the `playwright.config.js` file. Key settings include:
-
-- **Test Directory**: Tests are located in the `./tests` folder.
-- **Parallel Execution**: Tests run in parallel for efficiency.
-- **Retries**: Tests retry up to 2 times on CI if they fail.
-- **Reporters**: Configured to generate HTML and Allure reports.
-- **Browser Configuration**: Set up for testing in Chromium.
-
-For more details, refer to the `playwright.config.js` file in the project.
-
-### Contributing:
-
-Please follow these steps to contribute:
-
-1. **Fork the Repository**: Click the "Fork" button in the top right corner of the repository page to create your own copy.
-
-2. **Clone Your Fork**: Clone your forked repository to your local machine using:
-   ```bash
-   git clone https://github.com/your-username/01.10.24_playwright_test_project.git
-   ```
-   Replace your-username with your GitHub username.
-
-3. **Create a Branch**: Create a new branch for your feature or bug fix:
-   ```bash
-   git checkout -b your-feature-branch
-   ```
-
-4. **Make Changes**: Implement your changes in the codebase.
-
-5. **Test Your Changes**: Ensure all tests pass before submitting your changes. You can run the tests using:
-   ```bash
-   npx playwright test
-   ```
-
-6. **Commit Your Changes:**: Add and commit your changes:
-   ```bash
-   git add .
-   git commit -m "Add a meaningful commit message"
-   ```
- 
-7. **Push to Your Fork:**: Push your changes back to your forked repository:
-   ```bash
-   git push origin your-feature-branch
-   ```     
-8. **Create a Pull Request**: Go to the original repository and click on the "Pull Requests" tab. Click "New Pull Request" and select your branch. Provide a description of your changes and submit the pull request.
 
  ## License
 
- No license yet.
+This project is licensed under the MIT License. You are free to use, modify, and distribute this project. See the LICENSE file for more details.
+MIT License
+```plaintext
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 
 
