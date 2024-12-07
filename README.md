@@ -1,4 +1,4 @@
-![CI](https://github.com/ваш_репозиторій/ваш_проєкт/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/gadiim/01.10.24_playwright_test_project/actions/workflows/ci.yml/badge.svg)
 
 # Playwright Test Project
 
