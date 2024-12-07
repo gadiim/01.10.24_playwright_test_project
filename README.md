@@ -114,7 +114,7 @@ To generate Allure reports after running the tests, use the following commands:
 
 ## Test Result
 
-The project utilizes GitHub Pages for hosting and displaying the test reports. You can view the test reports [here](https://gadiim.github.io/01.10.24_playwright_test_project/)
+The project utilizes GitHub Pages for hosting and displaying the test reports. You can view the test reports [here](https://gadiim.github.io/PlaywrightAllure_01.10.24/)
 
 ## Test Structure
 
