@@ -1,6 +1,6 @@
 {
-  "name": "01.10.24_playwright_test_project",
-  "version": "1.0.0",
+  "name": "PlaywrightAllure_01.10.24",
+  "version": "1.0.2",
   "description": "A Playwright test project for end-to-end testing with Allure reporting.",
   "main": "index.js",
   "scripts": {
