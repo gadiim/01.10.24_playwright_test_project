@@ -11,9 +11,11 @@ test('Add book to cart and verify', async ({ page }) => {
     await homePage.navigate();
 
     await redmineBooks.scrollIntoViewIfNeeded();
-
+    
     await productPage.clickBook();
 
+    await productPage.clickEBookButton();
+    
     await productPage.addToCart();
 
     await productPage.verifyItemAddedToCart();
